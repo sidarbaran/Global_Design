@@ -1,0 +1,314 @@
+{% extends "base.html" %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block body %}
+
+				<section class="blog-list-wrap">
+					<div class="container">
+						<div class="fillter-wrap">
+							<div class="row">
+								<!--SLECTRIC DEC START-->
+								<div class="col-md-3 col-sm-6">
+									<div class="slectric-dec">
+										<span>Sort by:</span>
+										<select>
+			                                <option value="1">Default Sorting</option>
+			                                <option value="9">novel</option>
+			                                <option value="2">books</option>
+			                                <option value="3">Select 4</option>
+			                                <option value="6">Select 5</option>
+			                                <option value="8">Select 6</option>
+			                            </select>
+									</div>
+								</div>
+								<!--SLECTRIC DEC END-->
+								<!--SLECTRIC DEC START-->
+								<div class="col-md-3 col-sm-6">
+									<div class="slectric-dec">
+										<span>Show by:</span>
+										<select>
+			                                <option value="1"> 12 Items Per Page</option>
+			                                <option value="9">novel</option>
+			                                <option value="2">books</option>
+			                                <option value="3">Select 4</option>
+			                                <option value="6">Select 5</option>
+			                                <option value="8">Select 6</option>
+			                            </select>
+									</div>
+								</div>
+								<!--SLECTRIC DEC END-->
+								<!--SLECTRIC DEC START-->
+								<div class="col-md-3 col-sm-6">
+									<div class="slectric-dec">
+										<span>Category:</span>
+										<select>
+			                                <option value="1">Fiction</option>
+			                                <option value="9">novel</option>
+			                                <option value="2">books</option>
+			                                <option value="3">Select 4</option>
+			                                <option value="6">Select 5</option>
+			                                <option value="8">Select 6</option>
+			                            </select>
+									</div>
+								</div>
+								<!--SLECTRIC DEC END-->
+								<!--TAB DEC START-->
+								<div class="col-md-3 col-sm-6">
+									<div class="tab-dec">
+										<ul class="nav nav-tabs" role="tablist">
+											<li role="presentation" class="active">
+												<a href="#">
+												<i class="fa fa-th-large"></i>
+												</a>
+											</li>
+											<li role="presentation">
+												<a href="#">
+												<i class="fa fa-th-list"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!--TAB DEC END-->
+							</div>
+						</div>
+						<!--LIST STYLE START-->
+						<div class="blog-list-style">
+							<!--LIST STYLE DEC START-->
+							<div class="list-style-dec">
+								<div class="blog-thumb">
+									<img src="{% static 'images/222.jpg'%}" alt="">
+									<div class="blog-thumb-dec">
+										<a href="#" data-toggle="modal" data-target="#quickview1"><i class="fa fa-book"></i></a>
+									</div>
+								</div>
+								<div class="text">
+									<div class="text3">
+										<div class="blog1-hd">
+											<h5><a href="#">Time You Read</a></h5>
+											<span class="price-tag blue">
+												<sub>$</sub>230.00
+											</span>
+										</div>
+										<div class="rating-dec">
+											<div class="rating">
+												<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+											</div>
+											<small>Biography</small>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+									<a class="btn-2" href="#">View Cart</a>
+									<a class="like-2" href="#"><i class="icon-heart"></i></a>
+								</div>
+							</div>
+							<!--LIST STYLE DEC END-->
+							<!--LIST STYLE DEC START-->
+							<div class="list-style-dec">
+								<div class="blog-thumb">
+									<img src="{% static 'images/222.jpg'%}" alt="">
+									<div class="blog-thumb-dec">
+										<a href="#" data-toggle="modal" data-target="#quickview1"><i class="fa fa-book"></i></a>
+									</div>
+									<div class="ribbon-wrap">
+										<span class="ribbon">Sale</span>
+									</div>
+								</div>
+								<div class="text">
+									<div class="text3">
+										<div class="blog1-hd">
+											<h5><a href="#">There’s Before & After</a></h5>
+											<span class="price-tag red">
+												<del>$96.00</del>
+												<sub>$</sub>58.00
+											</span>
+										</div>
+										<div class="rating-dec">
+											<div class="rating">
+												<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+											</div>
+											<small>Biography</small>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+									<a class="btn-2" href="#">View Cart</a>
+									<a class="like-2" href="#"><i class="icon-heart"></i></a>
+									<span class="discount-lable">30%</span>
+								</div>
+							</div>
+							<!--LIST STYLE DEC END-->
+							<!--LIST STYLE DEC START-->
+							<div class="list-style-dec">
+								<div class="blog-thumb">
+									<img src="{% static 'images/222.jpg'%}" alt="">
+									<div class="blog-thumb-dec">
+										<a href="#" data-toggle="modal" data-target="#quickview1"><i class="fa fa-book"></i></a>
+									</div>
+								</div>
+								<div class="text">
+									<div class="text3">
+										<div class="blog1-hd">
+											<h5><a href="#">Forget Her Nots</a></h5>
+											<span class="price-tag green">
+												<sub>$</sub>99.00
+											</span>
+										</div>
+										<div class="rating-dec">
+											<div class="rating">
+												<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+											</div>
+											<small>Biography</small>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+									<a class="btn-2" href="#">View Cart</a>
+									<a class="like-2" href="#"><i class="icon-heart"></i></a>
+								</div>
+							</div>
+							<!--LIST STYLE DEC END-->
+							<!--LIST STYLE DEC START-->
+							<div class="list-style-dec">
+								<div class="blog-thumb">
+									<img src="{% static 'images/222.jpg'%}" alt="">
+									<div class="blog-thumb-dec">
+										<a href="#" data-toggle="modal" data-target="#quickview1"><i class="fa fa-book"></i></a>
+									</div>
+									<div class="ribbon-wrap">
+										<span class="ribbon new">new</span>
+									</div>
+								</div>
+								<div class="text">
+									<div class="text3">
+										<div class="blog1-hd">
+											<h5><a href="#">NIGHTSHADE</a></h5>
+											<span class="price-tag green">
+												<sub>$</sub>99.00
+											</span>
+										</div>
+										<div class="rating-dec">
+											<div class="rating">
+												<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+											</div>
+											<small>Biography</small>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+									<a class="btn-2" href="#">View Cart</a>
+									<a class="like-2" href="#"><i class="icon-heart"></i></a>
+								</div>
+							</div>
+							<!--LIST STYLE DEC END-->
+							<!--LIST STYLE DEC START-->
+							<div class="list-style-dec">
+								<div class="blog-thumb">
+									<img src="{% static 'images/222.jpg'%}" alt="">
+									<div class="blog-thumb-dec">
+										<a href="#" data-toggle="modal" data-target="#quickview1"><i class="fa fa-book"></i></a>
+									</div>
+									<div class="ribbon-wrap">
+										<span class="ribbon">Sale</span>
+									</div>
+								</div>
+								<div class="text">
+									<div class="text3">
+										<div class="blog1-hd">
+											<h5><a href="#">THE BODY FINDER</a></h5>
+											<span class="price-tag red">
+												<del>$96.00</del>
+												<sub>$</sub>58.00
+											</span>
+										</div>
+										<div class="rating-dec">
+											<div class="rating">
+												<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+											</div>
+											<small>Biography</small>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+									<a class="btn-2" href="#">View Cart</a>
+									<a class="like-2" href="#"><i class="icon-heart"></i></a>
+									<span class="discount-lable">50%</span>
+								</div>
+							</div>
+							<!--LIST STYLE DEC END-->
+							<!--LIST STYLE DEC START-->
+							<div class="list-style-dec">
+								<div class="blog-thumb">
+									<img src="{% static 'images/222.jpg'%}" alt="">
+									<div class="blog-thumb-dec">
+										<a href="#" data-toggle="modal" data-target="#quickview1"><i class="fa fa-book"></i></a>
+									</div>
+								</div>
+								<div class="text">
+									<div class="text3">
+										<div class="blog1-hd">
+											<h5><a href="#">And the i found out the truth</a></h5>
+											<span class="price-tag blue">
+												<sub>$</sub>2358.00
+											</span>
+										</div>
+										<div class="rating-dec">
+											<div class="rating">
+												<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+											</div>
+											<small>Biography</small>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+									<a class="btn-2" href="#">View Cart</a>
+									<a class="like-2" href="#"><i class="icon-heart"></i></a>
+								</div>
+							</div>
+							<!--LIST STYLE DEC END-->
+						</div>
+						<!--LIST STYLE END-->
+						<!--KODDE PAGINATION START-->
+						<div class="kf-pagination">
+						  	<ul class="pagination">
+								<li>
+									<a href="#" aria-label="Previous">
+										<span aria-hidden="true">
+											<i class="fa fa-angle-left"></i>
+										</span>
+										<small class="page-lable">
+											Previous
+										</small>
+									</a>
+								</li>
+								<li>
+									<a class="active" href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+								<li>
+									<a href="#" aria-label="Next">
+										<span aria-hidden="true">
+											<i class="fa fa-angle-right"></i>
+										</span>
+										<small class="page-lable">
+											next
+										</small>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!--KODDE PAGINATION END-->
+					</div>
+				</section>
+
+        {% endblock %}
+
+
+    </title>
+</head>
+<body>
+
+</body>
+</html>

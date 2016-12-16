@@ -1,0 +1,202 @@
+{% extends "base.html" %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block body %}
+            <div class="section-bg">
+                <div class="container">
+                    <!--BOOK VIEW WRAP START-->
+                    <div class="book-view">
+                        <div class="row">
+                            <div class="col-md-5"style="height: auto">
+                                <!--BOOK VIEW THUMB START-->
+                                <div class="thumb">
+                                    <div class="thumb-slider">
+                                        <ul class="bxslider3">
+                                            <li>
+                                                <img src="{% static 'images/222.jpg' %}"   alt='' />
+                                                <a class="zoomer" href="#"><i class="fa fa-arrows-alt"></i></a>
+                                            </li>
+                                            <li><img src="{% static 'images/222.jpg' %}" alt=''/></li>
+                                            <li><img src="{% static 'images/222.jpg' %}" alt=''/></li>
+                                        </ul>
+                                        <div class="ribbon-wrap">
+                                            <span class="ribbon">Sale</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--BOOK VIEW THUMB END-->
+                            </div>
+
+
+                            <div class="col-md-7">
+
+
+<div class="table_block table-responsive mb-40" id="order-detail-content">
+                  <table class="table table-borde" id="cart_summary">
+                     <thead>
+                        <tr>
+                           <th colspan="2" class="cart_product first_item">Satıcı</th>
+                           <th class="cart_unit item">Puan</th>
+                           <th class="cart_quantity item">Kargo</th>
+                           <th class="cart_delete last_item">Fiyat</th>
+                        </tr>
+                     </thead>
+                     <tfoot class="dd-list-empty"><tr><td colspan="5"></td></tr></tfoot>
+                     <tbody class="dropdown-product-list">
+                        <tr class="cart_item first_item address_0 odd dd-product-group">
+                           <td class="cart_product">
+                              <a href="product-page.html">
+                                 <img style="width: 90px" src="{% static 'images/111.png'%}"alt=""/>
+                              </a>
+                           </td>
+                           <td class="cart_description">
+                              <p class="product-name">
+                                 <a href="product-page.html">Kitap Yurdu</a>
+                              </p>
+                              <small><span></span></small>
+                              <small><span></span></small>
+                              <small>Samipaşazade Sezai: <span>Sergüzeşt</span></small>
+                           </td>
+                           <td data-title="PRICE" class="cart_unit">
+                              <span class="price"></span>
+                               												<div class="rating">
+													<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+												</div>
+
+                           </td>
+
+                           <td class="cart_quantity text-center"><p>Ücretsiz</p>
+
+                           </td>
+                           <td class="subtotal text-center" data-title="SUBTOTAL">
+                              <a class="close-btn ddr" href="#"><i class="icon_close"></i></a>
+                              <p>10 tl</p>											<a class="cart-3" href="#"><i class="icon-shopping-cart"></i>Add to Cart</a>
+
+                           </td>
+                        </tr>
+
+                        <tr class="cart_item first_item address_0 odd dd-product-group">
+                           <td class="cart_product">
+                              <a href="product-page.html">
+                                 <img src="{% static 'images/111.png'%}"alt=""/>
+                              </a>
+                           </td>
+                           <td class="cart_description">
+                              <p class="product-name">
+                                 <a href="product-page.html">Kitap Yurdu</a>
+                              </p>
+                              <small><span></span></small>
+                              <small><span></span></small>
+                              <small>Samipaşazade Sezai: <span>Sergüzeşt</span></small>
+                           </td>
+                           <td data-title="PRICE" class="cart_unit">
+                              <span class="price"></span>
+                               												<div class="rating">
+													<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+												</div>
+
+                           </td>
+
+                           <td class="cart_quantity text-center"><p>Ücretsiz</p>
+
+
+                           </td>
+                           <td class="subtotal text-center" data-title="SUBTOTAL">
+                              <a class="close-btn ddr" href="#"><i class="icon_close"></i></a>
+                              <p>10 tl</p>											<a class="cart-3" href="#"><i class="icon-shopping-cart"></i>Add to Cart</a>
+
+                           </td>
+                        </tr>
+                        <tr class="cart_item first_item address_0 odd dd-product-group">
+                           <td class="cart_product">
+                              <a href="product-page.html">
+                                 <img src="{% static 'images/111.png'%}"alt=""/>
+                              </a>
+                           </td>
+                           <td class="cart_description">
+                              <p class="product-name">
+                                 <a href="product-page.html">Kitap Yurdu</a>
+                              </p>
+                              <small><span></span></small>
+                              <small><span></span></small>
+                              <small>Samipaşazade Sezai: <span>Sergüzeşt</span></small>
+                           </td>
+                           <td data-title="PRICE" class="cart_unit">
+                              <span class="price"></span>
+                               												<div class="rating">
+													<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+												</div>
+
+                           </td>
+
+                           <td class="cart_quantity text-center"><p>Ücretsiz</p>
+
+                           </td>
+                           <td class="subtotal text-center" data-title="SUBTOTAL">
+                              <a class="close-btn ddr" href="#"><i class="icon_close"></i></a>
+                              <p>10 tl</p>											<a class="cart-3" href="#"><i class="icon-shopping-cart"></i>Add to Cart</a>
+
+                           </td>
+                        </tr>
+                        <tr class="cart_item first_item address_0 odd dd-product-group">
+                           <td class="cart_product">
+                              <a href="product-page.html">
+                                 <img src="{% static 'images/111.png'%}"alt=""/>
+                              </a>
+                           </td>
+                           <td class="cart_description">
+                              <p class="product-name">
+                                 <a href="product-page.html">Kitap Yurdu</a>
+                              </p>
+                              <small><span></span></small>
+                              <small><span></span></small>
+                              <small>Samipaşazade Sezai: <span>Sergüzeşt</span></small>
+                           </td>
+                           <td data-title="PRICE" class="cart_unit">
+                              <span class="price"></span>
+                               												<div class="rating">
+													<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+												</div>
+
+                           </td>
+
+                           <td class="cart_quantity text-center"><p>Ücretsiz</p>
+
+                           </td>
+                           <td class="subtotal text-center" data-title="SUBTOTAL">
+                              <a class="close-btn ddr" href="#"><i class="icon_close"></i></a>
+                              <p>10 tl</p>											<a class="cart-3" href="#"><i class="icon-shopping-cart"></i>Add to Cart</a>
+
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!--BOOK TABS 2 WRAP END-->
+
+
+
+        {% endblock %}
+
+
+    </title>
+</head>
+<body>
+
+</body>
+</html>
